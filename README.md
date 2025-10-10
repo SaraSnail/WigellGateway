@@ -66,3 +66,25 @@ This service uses **Spring Security** for authentication and authorization.
 - Use `script.bat` to build and run the container easily.
 - Docker network: `wigell-network`
 - All services connected uses the same name and password for MySQL database
+
+---
+
+## 🛢️ MySQL Database
+
+> _Note: The Gateway doesn't use the database, but all the microservices does
+
+| Name     |  Username    | Password |
+|----------|:------------:|:--------:|
+| wigelldb | wigelldbassa |   assa   |
+
+- **Version:** 8.0 (runs in a Docker container)
+- **Default Port:** `3306`
+    - In this example port is `3307:3306`. If MySQL workbench server is not installed the port can be changed to `3306:3306`
+- **Initial Setup Example:**
+  ```bash
+  docker run -d -p 3307:3306 --name wigell-mysql-service --network wigell-network -e MYSQL_ROOT_PASSWORD=assa -e MYSQL_DATABASE=wigelldb -e MYSQL_USER=wigelldbassa -e MYSQL_PASSWORD=assa mysql:8.0
+  ```
+  This creates a database named `wigelldb` with the root password `assa`.
+  The containers name becomes `wigell-mysql-service` and it connects with the network `wigell-network`
+
+> _Tip: You can change the database name, username, and password as needed—just update the environment variables and your application config._
