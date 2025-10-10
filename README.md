@@ -1,16 +1,16 @@
 # Wigell Gateway
 ## Overview
-Wigell Gateway is a gateway to four different microservices. Through this one can reach services for Gym, Travel, Padel and Repair. 
+Wigell Gateway is a gateway to four different microservices. Through this, one can reach services for Gym, Travel, Padel and Repair. 
 
 ---
 
 ## 🧩 Related Projects
-- [WigellGymService](https://github.com/SaraSnail/WigellGymServices) - made by SaraSnail
+- [WigellGymService](https://github.com/SaraSnail/WigellGymServices) - made by [SaraSnail](https://github.com/SaraSnail)
 
 ### Projects made by others added in the Gateway
-- [WigellTravelService](https://github.com/Sommar-skog/WigellTravelService) - made by Sommar-skog
-- [WigellPadelService](https://github.com/a-westerberg/WigellPadelService) - made by a-westerberg
-- [WigellRepairService](https://github.com/Jamtgard/WigellRepairService) - made by Jamtgard
+- [WigellTravelService](https://github.com/Sommar-skog/WigellTravelService) - made by [Sommar-skog](https://github.com/Sommar-skog)
+- [WigellPadelService](https://github.com/a-westerberg/WigellPadelService) - made by [a-westerberg](https://github.com/a-westerberg)
+- [WigellRepairService](https://github.com/Jamtgard/WigellRepairService) - made by [Jamtgard](https://github.com/Jamtgard)
 
 ---
 
