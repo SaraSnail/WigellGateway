@@ -1,4 +1,6 @@
 # Wigell Gateway
+[![Java](https://img.shields.io/badge/Java-21-blue.svg)](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.6-brightgreen.svg)](https://spring.io/projects/spring-boot)
 ## Overview
 Wigell Gateway is a gateway to four different microservices. Through this, one can reach services for Gym, Travel, Padel and Repair. 
 
