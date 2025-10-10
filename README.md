@@ -28,7 +28,7 @@ Wigell Gateway is a gateway to four different microservices. Through this, one c
 
 - Java 21
 - Maven
-- Docker (for running MySQL and containerizing the service)
+- Docker (for running MySQL and containerizing the gateway)
 
 ---
 
@@ -42,7 +42,7 @@ Wigell Gateway is a gateway to four different microservices. Through this, one c
 - **Gym Padel :** `7575`
 - **Gym Repair :** `5555`
 
-> _Note: Connections to services can be found in `application.yml`_
+Connections to services can be found in `application.yml`
 
 
 ---
